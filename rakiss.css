@@ -1,0 +1,1843 @@
+
+/* RAKI owns Html tags  */
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+ha{
+    font-size:50px;
+    font-weight: bold;
+    display:block;
+
+}
+
+hb{
+    font-size: 45px;
+    font-weight: bold;
+    display:block;
+}
+
+hc{
+    font-size: 40px;
+    font-weight: bold;
+    display:block;
+}
+
+hd{
+    font-size: 35px;
+    font-weight: bold;
+    display:block;
+}
+
+he{
+    font-size: 30px;
+    font-weight: bold;
+    display:block;
+}
+
+hf{
+    font-size: 25px;
+    font-weight: bold;
+    display:block;
+}
+
+
+hg{
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+}
+
+hh{
+    font-size: 15px;
+    font-weight: bold;
+    display:block;
+}
+pa{
+    font-size: 15px;
+    display: block
+}
+
+anc{
+    color:rgb(128, 27, 200);
+    text-decoration: underline;
+    cursor: pointer;
+}
+anc:active{
+    color: rgb(151, 4, 4);
+}
+brk{
+    display:block;
+}
+
+ttl{
+    font-size: 50px ;
+    font-weight:700;
+}
+pretty{
+    display: block;
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word; 
+}
+bl{
+
+    height: 1px;
+    width: 100%;
+    background-color: rgb(133, 132, 132);
+    display: block;
+}
+
+
+
+/* RAKI owns CSS Framework */
+
+/* Colors */
+.raki-c-aliceblue{
+    color:aliceblue;
+}
+.raki-c-antiquewhite{
+    color: antiquewhite;
+}
+.raki-c-aqua{
+    color: aqua;
+}
+.raki-c-aquamarine{
+    color: aquamarine;
+}
+.raki-c-azure{
+    color: azure;
+}
+.raki-c-beige{
+    color: beige;
+}
+.raki-c-bisque{
+    color: bisque;
+}
+.raki-c-black{
+    color: black;
+}
+.raki-c-balachedalmond{
+    color: blanchedalmond;
+}
+.raki-c-blue{
+    color: blue;
+}
+.raki-c-blueviolet{
+    color: blueviolet;
+}
+.raki-c-brown{
+    color: brown;
+}
+.raki-c-burlywood{
+    color: burlywood;
+}
+.raki-c-cadetblue{
+    color: cadetblue;
+}
+.raki-c-chartreuse{
+    color: chartreuse;
+}
+.raki-c-chocolate{
+    color: chocolate;
+}
+.raki-c-coral{
+    color: coral;
+}
+.raki-c-cornflowerblue{
+    color: cornflowerblue;
+}
+.raki-c-cornsilk{
+    color: cornsilk;
+}
+.raki-c-crimson{
+    color: crimson;
+}
+.raki-c-cyan{
+    color: cyan;
+}
+.raki-c-darkblue{
+    color: darkblue;
+}
+.raki-c-darkcyan{
+    color: darkcyan;
+}
+.raki-c-darkgoldenrod{
+    color: darkgoldenrod;
+}
+.raki-c-darkgray{
+    color: darkgray;
+}.raki-c-darkgreen {
+    color: darkgreen;
+}
+
+.raki-c-darkgrey {
+    color: darkgrey;
+}
+
+.raki-c-darkkhaki {
+    color: darkkhaki;
+}
+
+.raki-c-darkmagenta {
+    color: darkmagenta;
+}
+
+.raki-c-darkolivegreen {
+    color: darkolivegreen;
+}
+
+.raki-c-darkorange {
+    color: darkorange;
+}
+
+.raki-c-darkorchid {
+    color: darkorchid;
+}
+
+.raki-c-darkred {
+    color: darkred;
+}
+
+.raki-c-darksalmon {
+    color: darksalmon;
+}
+
+.raki-c-darkseagreen {
+    color: darkseagreen;
+}
+
+.raki-c-darkslateblue {
+    color: darkslateblue;
+}
+
+.raki-c-darkslategray {
+    color: darkslategray;
+}
+
+.raki-c-darkslategrey {
+    color: darkslategrey;
+}
+
+.raki-c-darkturquoise {
+    color: darkturquoise;
+}
+
+.raki-c-darkviolet {
+    color: darkviolet;
+}
+
+.raki-c-deeppink {
+    color: deeppink;
+}
+
+.raki-c-deepskyblue {
+    color: deepskyblue;
+}
+
+.raki-c-dimgray {
+    color: dimgray;
+}
+.raki-c-dimgrey {
+    color: dimgrey;
+}
+
+.raki-c-dodgerblue {
+    color: dodgerblue;
+}
+
+.raki-c-firebrick {
+    color: firebrick;
+}
+
+.raki-c-floralwhite {
+    color: floralwhite;
+}
+
+.raki-c-forestgreen {
+    color: forestgreen;
+}
+
+.raki-c-fuchsia {
+    color: fuchsia;
+}.raki-c-gainsboro {
+    color: gainsboro;
+}
+
+.raki-c-ghostwhite {
+    color: ghostwhite;
+}
+
+.raki-c-gold {
+    color: gold;
+}
+
+.raki-c-goldenrod {
+    color: goldenrod;
+}
+
+.raki-c-gray {
+    color: gray;
+}
+
+.raki-c-green {
+    color: green;
+}
+
+.raki-c-greenyellow {
+    color: greenyellow;
+}
+
+.raki-c-grey {
+    color: grey;
+}
+
+.raki-c-honeydew{
+    color: honeydew;
+}
+
+.raki-c-hotpink{
+    color: hotpink;
+}
+
+.raki-c-indianred{
+    color: indianred;
+}
+.raki-c-ivory{
+    color: ivory;
+}
+
+.raki-c-khaki{
+    color: khaki;
+}.raki-c-lavender {
+    color: lavender;
+}
+
+.raki-c-lavenderblush {
+    color: lavenderblush;
+}
+
+.raki-c-lawngreen {
+    color: lawngreen;
+}
+
+.raki-c-lemonchiffon {
+    color: lemonchiffon;
+}
+
+.raki-c-lightblue {
+    color: lightblue;
+}
+
+.raki-c-lightcoral {
+    color: lightcoral;
+}
+
+.raki-c-lightcyan {
+    color: lightcyan;
+}
+
+.raki-c-lightgoldenrodyellow {
+    color: lightgoldenrodyellow;
+}
+
+.raki-c-lightgray {
+    color: lightgray;
+}
+
+.raki-c-lightgreen {
+    color: lightgreen;
+}
+
+.raki-c-lightpink {
+    color: lightpink;
+}
+
+.raki-c-lightsalmon {
+    color: lightsalmon;
+}
+
+.raki-c-lightseagreen {
+    color: lightseagreen;
+}
+
+.raki-c-lightskyblue {
+    color: lightskyblue;
+}
+
+.raki-c-lightslategray {
+    color: lightslategray;
+}
+
+.raki-c-lightsteelblue {
+    color: lightsteelblue;
+}
+
+.raki-c-lightyellow {
+    color: lightyellow;
+}
+
+.raki-c-mediumaquamarine {
+    color: mediumaquamarine;
+}
+
+.raki-c-mediumblue {
+    color: mediumblue;
+}
+
+.raki-c-mediumorchid {
+    color: mediumorchid;
+}
+
+.raki-c-mediumpurple {
+    color: mediumpurple;
+}
+
+.raki-c-mediumseagreen {
+    color: mediumseagreen;
+}
+
+.raki-c-mediumslateblue {
+    color: mediumslateblue;
+}
+
+.raki-c-mediumspringgreen {
+    color: mediumspringgreen;
+}
+
+.raki-c-mediumturquoise {
+    color: mediumturquoise;
+}
+
+.raki-c-mediumvioletred {
+    color: mediumvioletred;
+}
+
+.raki-c-midnightblue {
+    color: midnightblue;
+}
+
+.raki-c-mintcream {
+    color: mintcream;
+}
+
+.raki-c-mistyrose {
+    color: mistyrose;
+}
+
+.raki-c-moccasin {
+    color: moccasin;
+}
+
+.raki-c-navajowhite {
+    color: navajowhite;
+}
+
+.raki-c-navy {
+    color: navy;
+}
+
+.raki-c-oldlace {
+    color: oldlace;
+}
+
+.raki-c-olive {
+    color: olive;
+}
+
+.raki-c-olivedrab {
+    color: olivedrab;
+}
+
+.raki-c-orange {
+    color: orange;
+}
+
+.raki-c-orangered {
+    color: orangered;
+}
+
+.raki-c-orchid {
+    color: orchid;
+}
+
+.raki-c-palegoldenrod {
+    color: palegoldenrod;
+}
+
+.raki-c-palegreen {
+    color: palegreen;
+}
+
+.raki-c-paleturquoise {
+    color: paleturquoise;
+}
+
+.raki-c-palevioletred {
+    color: palevioletred;
+}
+
+.raki-c-papayawhip {
+    color: papayawhip;
+}
+
+.raki-c-peachpuff {
+    color: peachpuff;
+}
+
+.raki-c-peru {
+    color: peru;
+}
+
+.raki-c-pink {
+    color: pink;
+}
+
+.raki-c-plum {
+    color: plum;
+}
+
+.raki-c-powderblue {
+    color: powderblue;
+}
+.raki-c-red {
+    color: red;
+}
+
+.raki-c-rosybrown {
+    color: rosybrown;
+}
+
+.raki-c-royalblue {
+    color: royalblue;
+}
+.raki-c-saddlebrown {
+    color: saddlebrown;
+}
+
+.raki-c-salmon {
+    color: salmon;
+}
+
+.raki-c-sandybrown {
+    color: sandybrown;
+}
+
+.raki-c-seagreen {
+    color: seagreen;
+}
+
+.raki-c-seashell {
+    color: seashell;
+}
+
+.raki-c-sienna {
+    color: sienna;
+}
+
+.raki-c-silver {
+    color: silver;
+}
+
+.raki-c-skyblue {
+    color: skyblue;
+}
+
+.raki-c-slateblue {
+    color: slateblue;
+}
+
+.raki-c-slategray {
+    color: slategray;
+}
+
+.raki-c-snow {
+    color: snow;
+}
+
+.raki-c-springgreen {
+    color: springgreen;
+}
+
+.raki-c-steelblue {
+    color: steelblue;
+}
+.raki-c-tan {
+    color: tan;
+}
+
+.raki-c-teal {
+    color: teal;
+}
+
+.raki-c-thistle {
+    color: thistle;
+}
+
+.raki-c-tomato {
+    color: tomato;
+}
+
+.raki-c-turquoise {
+    color: turquoise;
+}
+
+.raki-c-wheat {
+    color: wheat;
+}
+
+.raki-c-white {
+    color: white;
+}
+
+.raki-c-whitesmoke {
+    color: whitesmoke;
+}
+
+.raki-c-yellow {
+    color: yellow;
+}
+
+.raki-c-yellowgreen {
+    color: yellowgreen;
+}
+
+
+/* Hover - Colors  */
+
+
+.raki-c-aliceblue-hover:hover {
+    color: aliceblue;
+
+}
+.raki-c-antiquewhite-hover:hover {
+    color: antiquewhite;
+}
+.raki-c-aqua-hover:hover {
+    color: aqua;
+}
+.raki-c-aquamarine-hover:hover {
+    color: aquamarine;
+}
+.raki-c-azure-hover:hover {
+    color: azure;
+}
+.raki-c-beige-hover:hover {
+    color: beige;
+}
+.raki-c-bisque-hover:hover {
+    color: bisque;
+}
+.raki-c-black-hover:hover {
+    color: black;
+}
+.raki-c-balachedalmond-hover:hover {
+    color: blanchedalmond;
+}
+.raki-c-blue-hover:hover {
+    color: blue;
+}
+.raki-c-blueviolet-hover:hover {
+    color: blueviolet;
+}
+.raki-c-brown-hover:hover {
+    color: brown;
+}
+.raki-c-burlywood-hover:hover {
+    color: burlywood;
+}
+.raki-c-cadetblue-hover:hover {
+    color: cadetblue;
+}
+.raki-c-chartreuse-hover:hover {
+    color: chartreuse;
+}
+.raki-c-chocolate-hover:hover {
+    color: chocolate;
+}
+.raki-c-coral-hover:hover {
+    color: coral;
+}
+.raki-c-cornflowerblue-hover:hover {
+    color: cornflowerblue;
+}
+.raki-c-cornsilk-hover:hover {
+    color: cornsilk;
+}
+.raki-c-crimson-hover:hover {
+    color: crimson;
+}
+.raki-c-cyan-hover:hover {
+    color: cyan;
+}
+.raki-c-darkblue-hover:hover {
+    color: darkblue;
+}
+.raki-c-darkcyan-hover:hover {
+    color: darkcyan;
+}
+.raki-c-darkgoldenrod-hover:hover {
+    color: darkgoldenrod;
+}
+.raki-c-darkgray-hover:hover {
+    color: darkgray;
+}
+.raki-c-darkgreen-hover:hover {
+    color: darkgreen;
+}
+.raki-c-darkgrey-hover:hover {
+    color: darkgrey;
+}
+.raki-c-darkkhaki-hover:hover {
+    color: darkkhaki;
+}
+.raki-c-darkmagenta-hover:hover {
+    color: darkmagenta;
+}
+.raki-c-darkolivegreen-hover:hover {
+    color: darkolivegreen;
+}
+.raki-c-darkorange-hover:hover {
+    color: darkorange;
+}
+.raki-c-darkorchid-hover:hover {
+    color: darkorchid;
+}
+.raki-c-darkred-hover:hover {
+    color: darkred;
+}
+.raki-c-darksalmon-hover:hover {
+    color: darksalmon;
+}
+.raki-c-darkseagreen-hover:hover {
+    color: darkseagreen;
+}
+.raki-c-darkslateblue-hover:hover {
+    color: darkslateblue;
+}
+.raki-c-darkslategray-hover:hover {
+    color: darkslategray;
+}
+.raki-c-darkslategrey-hover:hover {
+    color: darkslategrey;
+}
+.raki-c-darkturquoise-hover:hover {
+    color: darkturquoise;
+}
+.raki-c-darkviolet-hover:hover {
+    color: darkviolet;
+}
+.raki-c-deeppink-hover:hover {
+    color: deeppink;
+}
+.raki-c-deepskyblue-hover:hover {
+    color: deepskyblue;
+}
+.raki-c-dimgray-hover:hover {
+    color: dimgray;
+}
+.raki-c-dimgrey-hover:hover {
+    color: dimgrey;
+}
+.raki-c-dodgerblue-hover:hover {
+    color: dodgerblue;
+}
+.raki-c-firebrick-hover:hover {
+    color: firebrick;
+}
+.raki-c-floralwhite-hover:hover {
+    color: floralwhite;
+}
+.raki-c-forestgreen-hover:hover {
+    color: forestgreen;
+}
+.raki-c-fuchsia-hover:hover {
+    color: fuchsia;
+}
+.raki-c-gainsboro-hover:hover {
+    color: gainsboro;
+}
+.raki-c-ghostwhite-hover:hover {
+    color: ghostwhite;
+}
+.raki-c-gold-hover:hover {
+    color: gold;
+}
+.raki-c-goldenrod-hover:hover {
+    color: goldenrod;
+}
+.raki-c-gray-hover:hover {
+    color: gray;
+}
+.raki-c-green-hover:hover {
+    color: green;
+}
+.raki-c-greenyellow-hover:hover {
+    color: greenyellow;
+}
+.raki-c-grey-hover:hover {
+    color: grey;
+}
+.raki-c-honeydew-hover:hover {
+    color: honeydew;
+}
+.raki-c-hotpink-hover:hover {
+    color: hotpink;
+}
+.raki-c-indianred-hover:hover {
+    color: indianred;
+}
+.raki-c-ivory-hover:hover {
+    color: ivory;
+}
+.raki-c-khaki-hover:hover {
+    color: khaki;
+}
+.raki-c-lavender-hover:hover {
+    color: lavender;
+}
+.raki-c-lavenderblush-hover:hover {
+    color: lavenderblush;
+}
+.raki-c-lawngreen-hover:hover {
+    color: lawngreen;
+}
+.raki-c-lemonchiffon-hover:hover {
+    color: lemonchiffon;
+}
+.raki-c-lightblue-hover:hover {
+    color: lightblue;
+}
+.raki-c-lightcoral-hover:hover {
+    color: lightcoral;
+}
+.raki-c-lightcyan-hover:hover {
+    color: lightcyan;
+}
+.raki-c-lightgoldenrodyellow-hover:hover {
+    color: lightgoldenrodyellow;
+}
+.raki-c-lightgray-hover:hover {
+    color: lightgray;
+}
+.raki-c-lightgreen-hover:hover {
+    color: lightgreen;
+}
+.raki-c-lightpink-hover:hover {
+    color: lightpink;
+}
+.raki-c-lightsalmon-hover:hover {
+    color: lightsalmon;
+}
+.raki-c-lightseagreen-hover:hover {
+    color: lightseagreen;
+}
+.raki-c-lightskyblue-hover:hover {
+    color: lightskyblue;
+}
+.raki-c-lightslategray-hover:hover {
+    color: lightslategray;
+}
+.raki-c-lightsteelblue-hover:hover {
+    color: lightsteelblue;
+}
+.raki-c-lightyellow-hover:hover {
+    color: lightyellow;
+}
+.raki-c-mediumaquamarine-hover:hover {
+    color: mediumaquamarine;
+}
+.raki-c-mediumblue-hover:hover {
+    color: mediumblue;
+}
+.raki-c-mediumorchid-hover:hover {
+    color: mediumorchid;
+}
+.raki-c-mediumpurple-hover:hover {
+    color: mediumpurple;
+}
+.raki-c-mediumseagreen-hover:hover {
+    color: mediumseagreen;
+}
+.raki-c-mediumslateblue-hover:hover {
+    color: mediumslateblue;
+}
+.raki-c-mediumspringgreen-hover:hover {
+    color: mediumspringgreen;
+}
+.raki-c-mediumturquoise-hover:hover {
+    color: mediumturquoise;
+}
+.raki-c-mediumvioletred-hover:hover {
+    color: mediumvioletred;
+}
+.raki-c-midnightblue-hover:hover {
+    color: midnightblue;
+}
+.raki-c-mintcream-hover:hover {
+    color: mintcream;
+}
+.raki-c-mistyrose-hover:hover {
+    color: mistyrose;
+}
+.raki-c-moccasin-hover:hover {
+    color: moccasin;
+}
+.raki-c-navajowhite-hover:hover {
+    color: navajowhite;
+}
+.raki-c-navy-hover:hover {
+    color: navy;
+}
+.raki-c-oldlace-hover:hover {
+    color: oldlace;
+}
+.raki-c-olive-hover:hover {
+    color: olive;
+}
+.raki-c-olivedrab-hover:hover {
+    color: olivedrab;
+}
+.raki-c-orange-hover:hover {
+    color: orange;
+}
+.raki-c-orangered-hover:hover {
+    color: orangered;
+}
+.raki-c-orchid-hover:hover {
+    color: orchid;
+}
+.raki-c-palegoldenrod-hover:hover {
+    color: palegoldenrod;
+}
+.raki-c-palegreen-hover:hover {
+    color: palegreen;
+}
+.raki-c-paleturquoise-hover:hover {
+    color: paleturquoise;
+}
+.raki-c-palevioletred-hover:hover {
+    color: palevioletred;
+}
+.raki-c-papayawhip-hover:hover {
+    color: papayawhip;
+}
+.raki-c-peachpuff-hover:hover {
+    color: peachpuff;
+}
+.raki-c-peru-hover:hover {
+    color: peru;
+}
+.raki-c-pink-hover:hover {
+    color: pink;
+}
+.raki-c-plum-hover:hover {
+    color: plum;
+}
+.raki-c-powderblue-hover:hover {
+    color: powderblue;
+}
+.raki-c-red-hover:hover {
+    color: red;
+}
+.raki-c-rosybrown-hover:hover {
+    color: rosybrown;
+}
+.raki-c-royalblue-hover:hover {
+    color: royalblue;
+}
+.raki-c-saddlebrown-hover:hover {
+    color: saddlebrown;
+}
+.raki-c-salmon-hover:hover {
+    color: salmon;
+}
+.raki-c-sandybrown-hover:hover {
+    color: sandybrown;
+}
+.raki-c-seagreen-hover:hover {
+    color: seagreen;
+}
+.raki-c-seashell-hover:hover {
+    color: seashell;
+}
+.raki-c-sienna-hover:hover {
+    color: sienna;
+}
+.raki-c-silver-hover:hover {
+    color: silver;
+}
+.raki-c-skyblue-hover:hover {
+    color: skyblue;
+}
+.raki-c-slateblue-hover:hover {
+    color: slateblue;
+}
+.raki-c-slategray-hover:hover {
+    color: slategray;
+}
+.raki-c-snow-hover:hover {
+    color: snow;
+}
+.raki-c-springgreen-hover:hover {
+    color: springgreen;
+}
+.raki-c-steelblue-hover:hover {
+    color: steelblue;
+}
+.raki-c-tan-hover:hover {
+    color: tan;
+}
+.raki-c-teal-hover:hover {
+    color: teal;
+}
+.raki-c-thistle-hover:hover {
+    color: thistle;
+}
+.raki-c-tomato-hover:hover {
+    color: tomato;
+}
+.raki-c-turquoise-hover:hover {
+    color: turquoise;
+}
+.raki-c-wheat-hover:hover {
+    color: wheat;
+}
+.raki-c-white-hover:hover {
+    color: white;
+}
+.raki-c-whitesmoke-hover:hover {
+    color: whitesmoke;
+}
+.raki-c-yellow-hover:hover {
+    color: yellow;
+}
+.raki-c-yellowgreen-hover:hover {
+    color: yellowgreen;
+}
+/* background-color */
+
+.raki-bg-aliceblue {
+    background-color: aliceblue;
+}
+.raki-bg-antiquewhite {
+    background-color: antiquewhite;
+}
+.raki-bg-aqua {
+    background-color: aqua;
+}
+.raki-bg-aquamarine {
+    background-color: aquamarine;
+}
+.raki-bg-azure {
+    background-color: azure;
+}
+.raki-bg-beige {
+    background-color: beige;
+}
+.raki-bg-bisque {
+    background-color: bisque;
+}
+.raki-bg-black {
+    background-color: black;
+}
+.raki-bg-balachedalmond {
+    background-color: blanchedalmond;
+}
+.raki-bg-blue {
+    background-color: blue;
+}
+.raki-bg-blueviolet {
+    background-color: blueviolet;
+}
+.raki-bg-brown {
+    background-color: brown;
+}
+.raki-bg-burlywood {
+    background-color: burlywood;
+}
+.raki-bg-cadetblue {
+    background-color: cadetblue;
+}
+.raki-bg-chartreuse {
+    background-color: chartreuse;
+}
+.raki-bg-chocolate {
+    background-color: chocolate;
+}
+.raki-bg-coral {
+    background-color: coral;
+}
+.raki-bg-cornflowerblue {
+    background-color: cornflowerblue;
+}
+.raki-bg-cornsilk {
+    background-color: cornsilk;
+}
+.raki-bg-crimson {
+    background-color: crimson;
+}
+.raki-bg-cyan {
+    background-color: cyan;
+}
+.raki-bg-darkblue {
+    background-color: darkblue;
+}
+.raki-bg-darkcyan {
+    background-color: darkcyan;
+}
+.raki-bg-darkgoldenrod {
+    background-color: darkgoldenrod;
+}
+.raki-bg-darkgray {
+    background-color: darkgray;
+}
+.raki-bg-darkgreen {
+    background-color: darkgreen;
+}
+.raki-bg-darkgrey {
+    background-color: darkgrey;
+}
+.raki-bg-darkkhaki {
+    background-color: darkkhaki;
+}
+.raki-bg-darkmagenta {
+    background-color: darkmagenta;
+}
+.raki-bg-darkolivegreen {
+    background-color: darkolivegreen;
+}
+.raki-bg-darkorange {
+    background-color: darkorange;
+}
+.raki-bg-darkorchid {
+    background-color: darkorchid;
+}
+.raki-bg-darkred {
+    background-color: darkred;
+}
+.raki-bg-darksalmon {
+    background-color: darksalmon;
+}
+.raki-bg-darkseagreen {
+    background-color: darkseagreen;
+}
+.raki-bg-darkslateblue {
+    background-color: darkslateblue;
+}
+.raki-bg-darkslategray {
+    background-color: darkslategray;
+}
+.raki-bg-darkslategrey {
+    background-color: darkslategrey;
+}
+.raki-bg-darkturquoise {
+    background-color: darkturquoise;
+}
+.raki-bg-darkviolet {
+    background-color: darkviolet;
+}
+.raki-bg-deeppink {
+    background-color: deeppink;
+}
+.raki-bg-deepskyblue {
+    background-color: deepskyblue;
+}
+.raki-bg-dimgray {
+    background-color: dimgray;
+}
+.raki-bg-dimgrey {
+    background-color: dimgrey;
+}
+.raki-bg-dodgerblue {
+    background-color: dodgerblue;
+}
+.raki-bg-firebrick {
+    background-color: firebrick;
+}
+.raki-bg-floralwhite {
+    background-color: floralwhite;
+}
+.raki-bg-forestgreen {
+    background-color: forestgreen;
+}
+.raki-bg-fuchsia {
+    background-color: fuchsia;
+}
+.raki-bg-gainsboro {
+    background-color: gainsboro;
+}
+.raki-bg-ghostwhite {
+    background-color: ghostwhite;
+}
+.raki-bg-gold {
+    background-color: gold;
+}
+.raki-bg-goldenrod {
+    background-color: goldenrod;
+}
+.raki-bg-gray {
+    background-color: gray;
+}
+.raki-bg-green {
+    background-color: green;
+}
+.raki-bg-greenyellow {
+    background-color: greenyellow;
+}
+.raki-bg-grey {
+    background-color: grey;
+}
+.raki-bg-honeydew {
+    background-color: honeydew;
+}
+.raki-bg-hotpink {
+    background-color: hotpink;
+}
+.raki-bg-indianred {
+    background-color: indianred;
+}
+.raki-bg-ivory {
+    background-color: ivory;
+}
+.raki-bg-khaki {
+    background-color: khaki;
+}
+.raki-bg-lavender {
+    background-color: lavender;
+}
+.raki-bg-lavenderblush {
+    background-color: lavenderblush;
+}
+.raki-bg-lawngreen {
+    background-color: lawngreen;
+}
+.raki-bg-lemonchiffon {
+    background-color: lemonchiffon;
+}
+.raki-bg-lightblue {
+    background-color: lightblue;
+}
+.raki-bg-lightcoral {
+    background-color: lightcoral;
+}
+.raki-bg-lightcyan {
+    background-color: lightcyan;
+}
+.raki-bg-lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+.raki-bg-lightgray {
+    background-color: lightgray;
+}
+.raki-bg-lightgreen {
+    background-color: lightgreen;
+}
+.raki-bg-lightpink {
+    background-color: lightpink;
+}
+.raki-bg-lightsalmon {
+    background-color: lightsalmon;
+}
+.raki-bg-lightseagreen {
+    background-color: lightseagreen;
+}
+.raki-bg-lightskyblue {
+    background-color: lightskyblue;
+}
+.raki-bg-lightslategray {
+    background-color: lightslategray;
+}
+.raki-bg-lightsteelblue {
+    background-color: lightsteelblue;
+}
+.raki-bg-lightyellow {
+    background-color: lightyellow;
+}
+.raki-bg-mediumaquamarine {
+    background-color: mediumaquamarine;
+}
+.raki-bg-mediumblue {
+    background-color: mediumblue;
+}
+.raki-bg-mediumorchid {
+    background-color: mediumorchid;
+}
+.raki-bg-mediumpurple {
+    background-color: mediumpurple;
+}
+.raki-bg-mediumseagreen {
+    background-color: mediumseagreen;
+}
+.raki-bg-mediumslateblue {
+    background-color: mediumslateblue;
+}
+.raki-bg-mediumspringgreen {
+    background-color: mediumspringgreen;
+}
+.raki-bg-mediumturquoise {
+    background-color: mediumturquoise;
+}
+.raki-bg-mediumvioletred {
+    background-color: mediumvioletred;
+}
+.raki-bg-midnightblue {
+    background-color: midnightblue;
+}
+.raki-bg-mintcream {
+    background-color: mintcream;
+}
+.raki-bg-mistyrose {
+    background-color: mistyrose;
+}
+.raki-bg-moccasin {
+    background-color: moccasin;
+}
+.raki-bg-navajowhite {
+    background-color: navajowhite;
+}
+.raki-bg-navy {
+    background-color: navy;
+}
+.raki-bg-oldlace {
+    background-color: oldlace;
+}
+.raki-bg-olive {
+    background-color: olive;
+}
+.raki-bg-olivedrab {
+    background-color: olivedrab;
+}
+.raki-bg-orange {
+    background-color: orange;
+}
+.raki-bg-orangered {
+    background-color: orangered;
+}
+.raki-bg-orchid {
+    background-color: orchid;
+}
+.raki-bg-palegoldenrod {
+    background-color: palegoldenrod;
+}
+.raki-bg-palegreen {
+    background-color: palegreen;
+}
+.raki-bg-paleturquoise {
+    background-color: paleturquoise;
+}
+.raki-bg-palevioletred {
+    background-color: palevioletred;
+}
+.raki-bg-papayawhip {
+    background-color: papayawhip;
+}
+.raki-bg-peachpuff {
+    background-color: peachpuff;
+}
+.raki-bg-peru {
+    background-color: peru;
+}
+.raki-bg-pink {
+    background-color: pink;
+}
+.raki-bg-plum {
+    background-color: plum;
+}
+.raki-bg-powderblue {
+    background-color: powderblue;
+}
+.raki-bg-red {
+    background-color: red;
+}
+.raki-bg-rosybrown {
+    background-color: rosybrown;
+}
+.raki-bg-royalblue {
+    background-color: royalblue;
+}
+.raki-bg-saddlebrown {
+    background-color: saddlebrown;
+}
+.raki-bg-salmon {
+    background-color: salmon;
+}
+.raki-bg-sandybrown {
+    background-color: sandybrown;
+}
+.raki-bg-seagreen {
+    background-color: seagreen;
+}
+.raki-bg-seashell {
+    background-color: seashell;
+}
+.raki-bg-sienna {
+    background-color: sienna;
+}
+.raki-bg-silver {
+    background-color: silver;
+}
+.raki-bg-skyblue {
+    background-color: skyblue;
+}
+.raki-bg-slateblue {
+    background-color: slateblue;
+}
+.raki-bg-slategray {
+    background-color: slategray;
+}
+.raki-bg-snow {
+    background-color: snow;
+}
+.raki-bg-springgreen {
+    background-color: springgreen;
+}
+.raki-bg-steelblue {
+    background-color: steelblue;
+}
+.raki-bg-tan {
+    background-color: tan;
+}
+.raki-bg-teal {
+    background-color: teal;
+}
+.raki-bg-thistle {
+    background-color: thistle;
+}
+.raki-bg-tomato {
+    background-color: tomato;
+}
+.raki-bg-turquoise {
+    background-color: turquoise;
+}
+.raki-bg-wheat {
+    background-color: wheat;
+}
+.raki-bg-white {
+    background-color: white;
+}
+.raki-bg-whitesmoke {
+    background-color: whitesmoke;
+}
+.raki-bg-yellow {
+    background-color: yellow;
+}
+.raki-bg-yellowgreen {
+    background-color: yellowgreen;
+}
+
+
+/* background-color-hover */
+
+.raki-bg-aliceblue-hover:hover {
+    background-color: aliceblue;
+}
+.raki-bg-antiquewhite-hover:hover {
+    background-color: antiquewhite;
+}
+.raki-bg-aqua-hover:hover {
+    background-color: aqua;
+}
+.raki-bg-aquamarine-hover:hover {
+    background-color: aquamarine;
+}
+.raki-bg-azure-hover:hover {
+    background-color: azure;
+}
+.raki-bg-beige-hover:hover {
+    background-color: beige;
+}
+.raki-bg-bisque-hover:hover {
+    background-color: bisque;
+}
+.raki-bg-black-hover:hover {
+    background-color: black;
+}
+.raki-bg-balachedalmond-hover:hover {
+    background-color: blanchedalmond;
+}
+.raki-bg-blue-hover:hover {
+    background-color: blue;
+}
+.raki-bg-blueviolet-hover:hover {
+    background-color: blueviolet;
+}
+.raki-bg-brown-hover:hover {
+    background-color: brown;
+}
+.raki-bg-burlywood-hover:hover {
+    background-color: burlywood;
+}
+.raki-bg-cadetblue-hover:hover {
+    background-color: cadetblue;
+}
+.raki-bg-chartreuse-hover:hover {
+    background-color: chartreuse;
+}
+.raki-bg-chocolate-hover:hover {
+    background-color: chocolate;
+}
+.raki-bg-coral-hover:hover {
+    background-color: coral;
+}
+.raki-bg-cornflowerblue-hover:hover {
+    background-color: cornflowerblue;
+}
+.raki-bg-cornsilk-hover:hover {
+    background-color: cornsilk;
+}
+.raki-bg-crimson-hover:hover {
+    background-color: crimson;
+}
+.raki-bg-cyan-hover:hover {
+    background-color: cyan;
+}
+.raki-bg-darkblue-hover:hover {
+    background-color: darkblue;
+}
+.raki-bg-darkcyan-hover:hover {
+    background-color: darkcyan;
+}
+.raki-bg-darkgoldenrod-hover:hover {
+    background-color: darkgoldenrod;
+}
+.raki-bg-darkgray-hover:hover {
+    background-color: darkgray;
+}
+.raki-bg-darkgreen-hover:hover {
+    background-color: darkgreen;
+}
+.raki-bg-darkgrey-hover:hover {
+    background-color: darkgrey;
+}
+.raki-bg-darkkhaki-hover:hover {
+    background-color: darkkhaki;
+}
+.raki-bg-darkmagenta-hover:hover {
+    background-color: darkmagenta;
+}
+.raki-bg-darkolivegreen-hover:hover {
+    background-color: darkolivegreen;
+}
+.raki-bg-darkorange-hover:hover {
+    background-color: darkorange;
+}
+.raki-bg-darkorchid-hover:hover {
+    background-color: darkorchid;
+}
+.raki-bg-darkred-hover:hover {
+    background-color: darkred;
+}
+.raki-bg-darksalmon-hover:hover {
+    background-color: darksalmon;
+}
+.raki-bg-darkseagreen-hover:hover {
+    background-color: darkseagreen;
+}
+.raki-bg-darkslateblue-hover:hover {
+    background-color: darkslateblue;
+}
+.raki-bg-darkslategray-hover:hover {
+    background-color: darkslategray;
+}
+.raki-bg-darkslategrey-hover:hover {
+    background-color: darkslategrey;
+}
+.raki-bg-darkturquoise-hover:hover {
+    background-color: darkturquoise;
+}
+.raki-bg-darkviolet-hover:hover {
+    background-color: darkviolet;
+}
+.raki-bg-deeppink-hover:hover {
+    background-color: deeppink;
+}
+.raki-bg-deepskyblue-hover:hover {
+    background-color: deepskyblue;
+}
+.raki-bg-dimgray-hover:hover {
+    background-color: dimgray;
+}
+.raki-bg-dimgrey-hover:hover {
+    background-color: dimgrey;
+}
+.raki-bg-dodgerblue-hover:hover {
+    background-color: dodgerblue;
+}
+.raki-bg-firebrick-hover:hover {
+    background-color: firebrick;
+}
+.raki-bg-floralwhite-hover:hover {
+    background-color: floralwhite;
+}
+.raki-bg-forestgreen-hover:hover {
+    background-color: forestgreen;
+}
+.raki-bg-fuchsia-hover:hover {
+    background-color: fuchsia;
+}
+.raki-bg-gainsboro-hover:hover {
+    background-color: gainsboro;
+}
+.raki-bg-ghostwhite-hover:hover {
+    background-color: ghostwhite;
+}
+.raki-bg-gold-hover:hover {
+    background-color: gold;
+}
+.raki-bg-goldenrod-hover:hover {
+    background-color: goldenrod;
+}
+.raki-bg-gray-hover:hover {
+    background-color: gray;
+}
+.raki-bg-green-hover:hover {
+    background-color: green;
+}
+.raki-bg-greenyellow-hover:hover {
+    background-color: greenyellow;
+}
+.raki-bg-grey-hover:hover {
+    background-color: grey;
+}
+.raki-bg-honeydew-hover:hover {
+    background-color: honeydew;
+}
+.raki-bg-hotpink-hover:hover {
+    background-color: hotpink;
+}
+.raki-bg-indianred-hover:hover {
+    background-color: indianred;
+}
+.raki-bg-ivory-hover:hover {
+    background-color: ivory;
+}
+.raki-bg-khaki-hover:hover {
+    background-color: khaki;
+}
+.raki-bg-lavender-hover:hover {
+    background-color: lavender;
+}
+.raki-bg-lavenderblush-hover:hover {
+    background-color: lavenderblush;
+}
+.raki-bg-lawngreen-hover:hover {
+    background-color: lawngreen;
+}
+.raki-bg-lemonchiffon-hover:hover {
+    background-color: lemonchiffon;
+}
+.raki-bg-lightblue-hover:hover {
+    background-color: lightblue;
+}
+.raki-bg-lightcoral-hover:hover {
+    background-color: lightcoral;
+}
+.raki-bg-lightcyan-hover:hover {
+    background-color: lightcyan;
+}
+.raki-bg-lightgoldenrodyellow-hover:hover {
+    background-color: lightgoldenrodyellow;
+}
+.raki-bg-lightgray-hover:hover {
+    background-color: lightgray;
+}
+.raki-bg-lightgreen-hover:hover {
+    background-color: lightgreen;
+}
+.raki-bg-lightpink-hover:hover {
+    background-color: lightpink;
+}
+.raki-bg-lightsalmon-hover:hover {
+    background-color: lightsalmon;
+}
+.raki-bg-lightseagreen-hover:hover {
+    background-color: lightseagreen;
+}
+.raki-bg-lightskyblue-hover:hover {
+    background-color: lightskyblue;
+}
+.raki-bg-lightslategray-hover:hover {
+    background-color: lightslategray;
+}
+.raki-bg-lightsteelblue-hover:hover {
+    background-color: lightsteelblue;
+}
+.raki-bg-lightyellow-hover:hover {
+    background-color: lightyellow;
+}
+.raki-bg-mediumaquamarine-hover:hover {
+    background-color: mediumaquamarine;
+}
+.raki-bg-mediumblue-hover:hover {
+    background-color: mediumblue;
+}
+.raki-bg-mediumorchid-hover:hover {
+    background-color: mediumorchid;
+}
+.raki-bg-mediumpurple-hover:hover {
+    background-color: mediumpurple;
+}
+.raki-bg-mediumseagreen-hover:hover {
+    background-color: mediumseagreen;
+}
+.raki-bg-mediumslateblue-hover:hover {
+    background-color: mediumslateblue;
+}
+.raki-bg-mediumspringgreen-hover:hover {
+    background-color: mediumspringgreen;
+}
+.raki-bg-mediumturquoise-hover:hover {
+    background-color: mediumturquoise;
+}
+.raki-bg-mediumvioletred-hover:hover {
+    background-color: mediumvioletred;
+}
+.raki-bg-midnightblue-hover:hover {
+    background-color: midnightblue;
+}
+.raki-bg-mintcream-hover:hover {
+    background-color: mintcream;
+}
+.raki-bg-mistyrose-hover:hover {
+    background-color: mistyrose;
+}
+.raki-bg-moccasin-hover:hover {
+    background-color: moccasin;
+}
+.raki-bg-navajowhite-hover:hover {
+    background-color: navajowhite;
+}
+.raki-bg-navy-hover:hover {
+    background-color: navy;
+}
+.raki-bg-oldlace-hover:hover {
+    background-color: oldlace;
+}
+.raki-bg-olive-hover:hover {
+    background-color: olive;
+}
+.raki-bg-olivedrab-hover:hover {
+    background-color: olivedrab;
+}
+.raki-bg-orange-hover:hover {
+    background-color: orange;
+}
+.raki-bg-orangered-hover:hover {
+    background-color: orangered;
+}
+.raki-bg-orchid-hover:hover {
+    background-color: orchid;
+}
+.raki-bg-palegoldenrod-hover:hover {
+    background-color: palegoldenrod;
+}
+.raki-bg-palegreen-hover:hover {
+    background-color: palegreen;
+}
+.raki-bg-paleturquoise-hover:hover {
+    background-color: paleturquoise;
+}
+.raki-bg-palevioletred-hover:hover {
+    background-color: palevioletred;
+}
+.raki-bg-papayawhip-hover:hover {
+    background-color: papayawhip;
+}
+.raki-bg-peachpuff-hover:hover {
+    background-color: peachpuff;
+}
+.raki-bg-peru-hover:hover {
+    background-color: peru;
+}
+.raki-bg-pink-hover:hover {
+    background-color: pink;
+}
+.raki-bg-plum-hover:hover {
+    background-color: plum;
+}
+.raki-bg-powderblue-hover:hover {
+    background-color: powderblue;
+}
+.raki-bg-red-hover:hover {
+    background-color: red;
+}
+.raki-bg-rosybrown-hover:hover {
+    background-color: rosybrown;
+}
+.raki-bg-royalblue-hover:hover {
+    background-color: royalblue;
+}
+.raki-bg-saddlebrown-hover:hover {
+    background-color: saddlebrown;
+}
+.raki-bg-salmon-hover:hover {
+    background-color: salmon;
+}
+.raki-bg-sandybrown-hover:hover {
+    background-color: sandybrown;
+}
+.raki-bg-seagreen-hover:hover {
+    background-color: seagreen;
+}
+.raki-bg-seashell-hover:hover {
+    background-color: seashell;
+}
+.raki-bg-sienna-hover:hover {
+    background-color: sienna;
+}
+.raki-bg-silver-hover:hover {
+    background-color: silver;
+}
+.raki-bg-skyblue-hover:hover {
+    background-color: skyblue;
+}
+.raki-bg-slateblue-hover:hover {
+    background-color: slateblue;
+}
+.raki-bg-slategray-hover:hover {
+    background-color: slategray;
+}
+.raki-bg-snow-hover:hover {
+    background-color: snow;
+}
+.raki-bg-springgreen-hover:hover {
+    background-color: springgreen;
+}
+.raki-bg-steelblue-hover:hover {
+    background-color: steelblue;
+}
+.raki-bg-tan-hover:hover {
+    background-color: tan;
+}
+.raki-bg-teal-hover:hover {
+    background-color: teal;
+}
+.raki-bg-thistle-hover:hover {
+    background-color: thistle;
+}
+.raki-bg-tomato-hover:hover {
+    background-color: tomato;
+}
+.raki-bg-turquoise-hover:hover {
+    background-color: turquoise;
+}
+.raki-bg-wheat-hover:hover {
+    background-color: wheat;
+}
+.raki-bg-white-hover:hover {
+    background-color: white;
+}
+.raki-bg-whitesmoke-hover:hover {
+    background-color: whitesmoke;
+}
+.raki-bg-yellow-hover:hover {
+    background-color: yellow;
+}
+.raki-bg-yellowgreen-hover:hover {
+    background-color: yellowgreen;
+}
